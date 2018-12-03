@@ -8,8 +8,9 @@ public class Greeter {
   /**
    * This is a constructor.
    */
+   String str;
   public Greeter() {
-
+	
   }
 
   //TODO: Add javadoc comment
