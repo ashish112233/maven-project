@@ -23,7 +23,7 @@ pipeline{
         stage('Deploy to Staging'){
 
             steps{
-                    echo 'Deploy to Staging stage from file'
+                    build job: 'DeployToStaging'
             }
         }
     }
