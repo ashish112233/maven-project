@@ -2,7 +2,7 @@ pipeline{
 
     agent any
 
-    stages {
+    stages   {
         stage('Build'){
 
             steps{
@@ -19,7 +19,7 @@ pipeline{
         stage('Deploy to Staging'){
 
             steps{
-
+                    echo 'Deploy to Staging stage from file'
             }
         }
     }
